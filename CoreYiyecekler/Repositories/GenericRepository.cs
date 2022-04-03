@@ -1,8 +1,11 @@
 ﻿using CoreYiyecekler.Data.Models;
+using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
+using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
+
 
 namespace CoreYiyecekler.Repositories
 {
@@ -43,6 +46,13 @@ namespace CoreYiyecekler.Repositories
             context.Set<T>().Find(id);
 
         }
+
+        //public List<T> TList(string paramater)
+        //{
+
+        //    return context.Set<T>().Include(paramater).ToList();
+
+        //}
 
     }
 }
