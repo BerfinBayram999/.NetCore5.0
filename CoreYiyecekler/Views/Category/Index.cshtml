@@ -1,0 +1,39 @@
+﻿@model List<CoreYiyecekler.Data.Models.Category>
+
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Pages/Shared/_Layout.cshtml";
+}
+
+<h1>Category List</h1>
+<br />
+
+<table class="table table-bordered">
+    <tr>
+    <thead>ID</thead>
+    <thead>Category Name</thead>
+    <thead>Delete</thead>
+    <thead>Update</thead>
+    <tr />
+    @foreach (var x in Model)
+    {
+
+
+
+        <tr>
+            <td>@x.CategoryID</td>
+            <td>@x.CategoryName</td>
+            <td><a href="#" class="btn btn-danger">Delete</a></td>
+            <td><a href="#" class="btn btn-info">Update</a></td>
+
+        </tr>
+
+    }
+
+
+
+
+</table>
+
+

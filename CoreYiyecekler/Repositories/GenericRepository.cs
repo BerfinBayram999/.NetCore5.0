@@ -9,20 +9,20 @@ namespace CoreYiyecekler.Repositories
     public class GenericRepository<T> where T:class ,new()
     {
         Context context = new Context();
-        public List<T> CategoryList()
+        public List<T> TList()
         {
 
             return context.Set<T>().ToList();
         }
 
-        public void AddCategory(T paramater)
+        public void TAdd(T paramater)
         {
             context.Set<T>().Add(paramater);
             context.SaveChanges();
 
         }
 
-        public void CategoryDelete(T paramater)
+        public void TDelete(T paramater)
         {
 
             context.Set<T>().Remove(paramater);
@@ -30,7 +30,7 @@ namespace CoreYiyecekler.Repositories
 
         }
 
-        public void CategoryUpdate(T paramater)
+        public void TUpdate(T paramater)
         {
 
             context.Set<T>().Update(paramater);
@@ -38,7 +38,7 @@ namespace CoreYiyecekler.Repositories
 
         }
 
-        public void GetCategory(int id)
+        public void TGet(int id)
         {
             context.Set<T>().Find(id);
 

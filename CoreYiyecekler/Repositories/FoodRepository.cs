@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace CoreYiyecekler.Repositories
 {
-    public class FoodRespository:GenericRepository<Food>
+    public class FoodRepository:GenericRepository<Food>
     {
        
     }
