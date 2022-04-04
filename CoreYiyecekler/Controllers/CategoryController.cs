@@ -1,4 +1,5 @@
-﻿using CoreYiyecekler.Repositories;
+﻿using CoreYiyecekler.Data.Models;
+using CoreYiyecekler.Repositories;
 using Microsoft.AspNetCore.Mvc;
 using System;
 using System.Collections.Generic;
@@ -9,11 +10,37 @@ namespace CoreYiyecekler.Controllers
 {
     public class CategoryController : Controller
     {
+        CategoryRepository categoryRepository = new CategoryRepository();
         public IActionResult Index()
         {
 
-            CategoryRepository categoryRepository = new CategoryRepository();
+            
             return View(categoryRepository.TList());
+        }
+
+
+        [HttpGet]
+        public IActionResult CategoryAdd()
+        {
+
+
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult CategoryAdd(Category category)
+        {
+
+            if(!ModelState.IsValid)
+            {
+
+                return View("CategoryAdd");
+            }
+
+
+
+            categoryRepository.TAdd(category);
+            return RedirectToAction("Index"); 
         }
     }
 }

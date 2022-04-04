@@ -12,7 +12,7 @@ namespace CoreYiyecekler.Data.Models
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 
         {
-            optionsBuilder.UseSqlServer("server= DESKTOP-VCH9RR7 ; database=DBCoreYiyecekler; integrated security = true;");
+            optionsBuilder.UseSqlServer("server=DESKTOP-JORJ78P; database=DBCoreYiyecekler; integrated security = true;");
 
         }
 

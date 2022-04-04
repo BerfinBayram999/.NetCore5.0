@@ -2,7 +2,6 @@
 using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
-using System.Data.Entity;
 using System.Linq;
 using System.Threading.Tasks;
 
@@ -47,12 +46,12 @@ namespace CoreYiyecekler.Repositories
 
         }
 
-        //public List<T> TList(string paramater)
-        //{
+        public List<T> TList(string paramater)
+        {
 
-        //    return context.Set<T>().Include(paramater).ToList();
+          return context.Set<T>().Include(paramater).ToList();
 
-        //}
+        }
 
     }
 }
