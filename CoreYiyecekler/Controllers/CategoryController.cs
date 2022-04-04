@@ -42,5 +42,15 @@ namespace CoreYiyecekler.Controllers
             categoryRepository.TAdd(category);
             return RedirectToAction("Index"); 
         }
+
+
+        public IActionResult CategoryGet(int id)
+        {
+            var x= categoryRepository.TGet(id);
+            return View();
+
+
+
+        }
     }
 }

@@ -13,6 +13,7 @@ namespace CoreYiyecekler.Controllers
     {
         FoodRepository foodRepository = new FoodRepository();
         Context context=new Context();
+
         public IActionResult Index()
         {
 
@@ -38,11 +39,18 @@ namespace CoreYiyecekler.Controllers
         [HttpPost]
         public IActionResult FoodAdd(Food food)
         {
+          
             foodRepository.TAdd(food);
             return RedirectToAction("Index");
         }
 
+        public IActionResult DeleteFood(int id)
+        {
 
+            foodRepository.TDelete(new Food { FoodId=id}); 
+            return RedirectToAction("Index");
+
+        }
 
 
 

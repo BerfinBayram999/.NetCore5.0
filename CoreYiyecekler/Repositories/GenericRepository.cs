@@ -40,9 +40,9 @@ namespace CoreYiyecekler.Repositories
 
         }
 
-        public void TGet(int id)
+        public T TGet(int id)
         {
-            context.Set<T>().Find(id);
+           return context.Set<T>().Find(id);
 
         }
 

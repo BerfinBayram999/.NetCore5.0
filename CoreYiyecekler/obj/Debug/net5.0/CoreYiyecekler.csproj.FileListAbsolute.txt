@@ -295,3 +295,4 @@ C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\n
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\ref\CoreYiyecekler.dll
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryAdd.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Food\FoodAdd.cshtml.g.cs
+C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryGet.cshtml.g.cs

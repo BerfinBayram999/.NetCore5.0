@@ -18,6 +18,8 @@ namespace CoreYiyecekler.Data.Models
         public string CategoryName { get; set; }
 
         public string CategoryDescription { get; set; }
+
+        public bool Status { get; set; }
         public List<Food> Foods { get; set; }
 
     }
