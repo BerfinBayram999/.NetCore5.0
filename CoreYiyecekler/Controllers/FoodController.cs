@@ -6,6 +6,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using X.PagedList;
 
 namespace CoreYiyecekler.Controllers
 {
@@ -14,13 +15,14 @@ namespace CoreYiyecekler.Controllers
         FoodRepository foodRepository = new FoodRepository();
         Context context=new Context();
 
-        public IActionResult Index()
+
+        public IActionResult Index(int page = 1)
         {
 
-          
-            //return View(foodRepository.TList());
-            return View(foodRepository.TList("Category"));
+            return View(foodRepository.TList("Category").ToPagedList(page,3));
         }
+
+        // ( (1,3) Paging sayfa 1'den başlar ve her sayfada 3 veri içerir.)
 
         [HttpGet]
         public IActionResult FoodAdd()
@@ -52,7 +54,45 @@ namespace CoreYiyecekler.Controllers
 
         }
 
+        public IActionResult FoodGet(int id)
+        {
 
+            var x=foodRepository.TGet(id);
+            Food food = new Food()
+            {
+                FoodId=x.FoodId,
+                CategoryID=x.CategoryID,
+                FoodName=x.FoodName,    
+                Price=x.Price,  
+                Description=x.Description,  
+                ImageURL=x.ImageURL,    
+                Stock=x.Stock,
+
+            };
+
+
+            return View(food);
+
+        }
+
+        [HttpPost]
+        public IActionResult FoodUpdate(Food food)
+        {
+
+            var x = foodRepository.TGet(food.FoodId);
+            x.FoodName = food.FoodName;
+            x.Description = food.Description;
+            x.Price = food.Price;   
+            x.Stock=food.Stock; 
+            x.Price=food.Price;
+            x.ImageURL = food.ImageURL;
+            x.CategoryID = food.CategoryID;
+
+           
+            foodRepository.TUpdate(x);
+            return RedirectToAction("Index");
+
+        }
 
     }
 }

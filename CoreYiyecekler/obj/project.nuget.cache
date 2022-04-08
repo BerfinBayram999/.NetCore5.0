@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "sjIWZZGr0tHrE/xpYyj4xBhr4Q200QGFfot+zSxVfzEZ7j1PGf2jJoiTndDRo+zKqAZqxH4VkJNEX/aFu5rWSw==",
+  "dgSpecHash": "27CMGcZn/j0zLMVAr89XcK9LmyhDVRpA3CIvqsBAXMByiRYhyqYNRt8r7qYAIaLmNOGFtt8Al7DwfesMYqiWSA==",
   "success": true,
   "projectFilePath": "C:\\Users\\USER\\source\\repos\\CoreYiyecekler\\.NetCore5.0\\CoreYiyecekler\\CoreYiyecekler.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\USER\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\jetbrains.annotations\\2021.1.0\\jetbrains.annotations.2021.1.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",
@@ -127,7 +128,9 @@
     "C:\\Users\\USER\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\USER\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\USER\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\USER\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\x.pagedlist\\8.1.0\\x.pagedlist.8.1.0.nupkg.sha512",
+    "C:\\Users\\USER\\.nuget\\packages\\x.pagedlist.mvc.core\\8.1.0\\x.pagedlist.mvc.core.8.1.0.nupkg.sha512"
   ],
   "logs": []
 }
