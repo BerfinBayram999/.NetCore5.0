@@ -306,3 +306,9 @@ C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\bin\Debug\n
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\CoreYiyecekler.MvcApplicationPartsAssemblyInfo.cs
 >>>>>>> 93ef17139027f880c1a0595924fa489aa36bcc7b
+C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0\JetBrains.Annotations.dll
+C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0\X.PagedList.dll
+C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
+C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\obj\Debug\net5.0\CoreYiyecekler.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Chart\Index.cshtml.g.cs
+C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Food\FoodGet.cshtml.g.cs
