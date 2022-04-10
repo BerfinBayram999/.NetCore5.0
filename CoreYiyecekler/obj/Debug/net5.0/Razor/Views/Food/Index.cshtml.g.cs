@@ -18,6 +18,7 @@ namespace AspNetCore
         #pragma warning disable 1998
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
+            WriteLiteral("\r\n");
 #nullable restore
 #line 2 "C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\Views\Food\Index.cshtml"
   
@@ -92,8 +93,8 @@ namespace AspNetCore
 #line hidden
 #nullable disable
             WriteLiteral("</td>\r\n            <td><a");
-            BeginWriteAttribute("href", " href=\"", 676, "\"", 709, 2);
-            WriteAttributeValue("", 683, "/Food/DeleteFood/", 683, 17, true);
+            BeginWriteAttribute("href", " href=\"", 734, "\"", 767, 2);
+            WriteAttributeValue("", 741, "/Food/DeleteFood/", 741, 17, true);
 #nullable restore
 #line 29 "C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\Views\Food\Index.cshtml"
 WriteAttributeValue("", 700, x.FoodId, 700, 9, false);
@@ -102,7 +103,9 @@ WriteAttributeValue("", 700, x.FoodId, 700, 9, false);
 #line hidden
 #nullable disable
             EndWriteAttribute();
-            WriteLiteral(" class=\"btn btn-danger\">Delete</a></td>\r\n            <td><a href=\"#\" class=\"btn btn-info\">Update</a></td>\r\n            <td><a href=\"#\" class=\"btn btn-warning\">Details</a></td>\r\n        </tr>\r\n");
+            WriteLiteral(" class=\"btn btn-danger\">Delete</a></td>\r\n            <td><a");
+            BeginWriteAttribute("href", " href=\"", 827, "\"", 857, 2);
+            WriteAttributeValue("", 834, "/Food/FoodGet/", 834, 14, true);
 #nullable restore
 #line 33 "C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\Views\Food\Index.cshtml"
 
@@ -111,7 +114,15 @@ WriteAttributeValue("", 700, x.FoodId, 700, 9, false);
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("\r\n</table>\r\n\r\n<a href=\"/Food/FoodAdd\" class=\"btn btn-info\">New Food</a>\r\n\r\n\r\n\r\n\r\n\r\n");
+            WriteLiteral("\r\n</table>\r\n");
+#nullable restore
+#line 40 "C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\Views\Food\Index.cshtml"
+Write(Html.PagedListPager((IPagedList)Model, page=>Url.Action("Index", new{page})));
+
+#line default
+#line hidden
+#nullable disable
+            WriteLiteral("\r\n\r\n<a href=\"/Food/FoodAdd\" class=\"btn btn-info\">New Food</a>\r\n\r\n\r\n\r\n\r\n\r\n");
         }
         #pragma warning restore 1998
         [global::Microsoft.AspNetCore.Mvc.Razor.Internal.RazorInjectAttribute]

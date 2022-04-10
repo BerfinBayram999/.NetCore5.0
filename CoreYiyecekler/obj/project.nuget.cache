@@ -1,10 +1,11 @@
 {
   "version": 2,
-  "dgSpecHash": "fbTwGdkk1KZgpRSiBVfqghN3lGSEktoYIKfAnvdzc5imvxePtfxq8cMxNVZrQL8XX20a0lGahYiy3Rh6Ha7Hqw==",
+  "dgSpecHash": "CB9NGGb/bdhsCRU/mFk9KFEnOi1U523Q0oBmAH36U8dH2/jQou07S4znzzd+sOTKxsd96gAS1gIZRGfjZjQBCQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Kızılkafa\\source\\repos\\CoreYiyecekler\\CoreYiyecekler\\CoreYiyecekler.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Kızılkafa\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
+    "C:\\Users\\Kızılkafa\\.nuget\\packages\\jetbrains.annotations\\2021.1.0\\jetbrains.annotations.2021.1.0.nupkg.sha512",
     "C:\\Users\\Kızılkafa\\.nuget\\packages\\microsoft.aspnetcore.html.abstractions\\2.2.0\\microsoft.aspnetcore.html.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\Kızılkafa\\.nuget\\packages\\microsoft.aspnetcore.razor\\2.2.0\\microsoft.aspnetcore.razor.2.2.0.nupkg.sha512",
     "C:\\Users\\Kızılkafa\\.nuget\\packages\\microsoft.aspnetcore.razor.language\\5.0.0\\microsoft.aspnetcore.razor.language.5.0.0.nupkg.sha512",
@@ -127,7 +128,16 @@
     "C:\\Users\\Kızılkafa\\.nuget\\packages\\system.xml.readerwriter\\4.3.0\\system.xml.readerwriter.4.3.0.nupkg.sha512",
     "C:\\Users\\Kızılkafa\\.nuget\\packages\\system.xml.xdocument\\4.3.0\\system.xml.xdocument.4.3.0.nupkg.sha512",
     "C:\\Users\\Kızılkafa\\.nuget\\packages\\system.xml.xmldocument\\4.3.0\\system.xml.xmldocument.4.3.0.nupkg.sha512",
-    "C:\\Users\\Kızılkafa\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    "C:\\Users\\Kızılkafa\\.nuget\\packages\\system.xml.xmlserializer\\4.3.0\\system.xml.xmlserializer.4.3.0.nupkg.sha512",
+    "C:\\Users\\Kızılkafa\\.nuget\\packages\\x.pagedlist\\8.1.0\\x.pagedlist.8.1.0.nupkg.sha512",
+    "C:\\Users\\Kızılkafa\\.nuget\\packages\\x.pagedlist.mvc.core\\8.1.0\\x.pagedlist.mvc.core.8.1.0.nupkg.sha512"
   ],
-  "logs": []
+  "logs": [
+    {
+      "code": "Undefined",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Problem reading the cache file C:\\Users\\Kızılkafa\\source\\repos\\CoreYiyecekler\\CoreYiyecekler\\obj\\project.nuget.cache : Invalid property identifier character: <. Path 'version', line 3, position 0."
+    }
+  ]
 }

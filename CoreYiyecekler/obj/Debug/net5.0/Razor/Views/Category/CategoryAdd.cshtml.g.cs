@@ -19,21 +19,19 @@ namespace AspNetCore
         public async override global::System.Threading.Tasks.Task ExecuteAsync()
         {
 #nullable restore
-#line 2 "C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\Views\Category\CategoryAdd.cshtml"
+#line 2 "C:\Users\K�z�lkafa\source\repos\CoreYiyecekler\CoreYiyecekler\Views\Category\CategoryAdd.cshtml"
   
     ViewData["Title"] = "CategoryAdd";
-    Layout = "~/Pages/Shared/_Layout.cshtml";
+     Layout = "~/Pages/Shared/_Layout.cshtml";
 
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("\r\n<h1>Category Add Page</h1>\r\n\r\n<br/>\r\n\r\n");
-            WriteLiteral("\r\n\r\n\r\n");
+            WriteLiteral("\r\n<h1>CategoryAdd</h1>\r\n<br />\r\n");
 #nullable restore
 #line 17 "C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\Views\Category\CategoryAdd.cshtml"
  using(Html.BeginForm("CategoryAdd","Category",FormMethod.Post))
 {
-    
     
 
 #line default
@@ -75,8 +73,7 @@ Write(Html.TextBoxFor(x=>x.CategoryDescription,new {@class="form-control"}));
 #line default
 #line hidden
 #nullable disable
-            WriteLiteral("    <br/>\r\n");
-            WriteLiteral("    <button class=\"btn btn-info\">Save</button>\r\n");
+            WriteLiteral("<br/>\r\n<button class=\"btn btn-info\">Save</button>\r\n");
 #nullable restore
 #line 32 "C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\Views\Category\CategoryAdd.cshtml"
 

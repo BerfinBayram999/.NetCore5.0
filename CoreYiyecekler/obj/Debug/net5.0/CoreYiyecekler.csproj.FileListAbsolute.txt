@@ -295,6 +295,14 @@ C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\n
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryAdd.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Food\FoodAdd.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryGet.cshtml.g.cs
+<<<<<<< HEAD
 C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryAdd.cshtml.g.cs
 C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryGet.cshtml.g.cs
 C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Food\FoodAdd.cshtml.g.cs
+=======
+C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Food\FoodGet.cshtml.g.cs
+C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\bin\Debug\net5.0\JetBrains.Annotations.dll
+C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\bin\Debug\net5.0\X.PagedList.dll
+C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\bin\Debug\net5.0\X.PagedList.Mvc.Core.dll
+C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\CoreYiyecekler.MvcApplicationPartsAssemblyInfo.cs
+>>>>>>> 93ef17139027f880c1a0595924fa489aa36bcc7b
