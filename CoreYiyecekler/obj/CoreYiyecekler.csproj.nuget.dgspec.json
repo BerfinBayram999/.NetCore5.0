@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\USER\\source\\repos\\CoreYiyecekler\\.NetCore5.0\\CoreYiyecekler\\CoreYiyecekler.csproj": {}
+    "C:\\Users\\Kızılkafa\\source\\repos\\CoreYiyecekler\\CoreYiyecekler\\CoreYiyecekler.csproj": {}
   },
   "projects": {
-    "C:\\Users\\USER\\source\\repos\\CoreYiyecekler\\.NetCore5.0\\CoreYiyecekler\\CoreYiyecekler.csproj": {
+    "C:\\Users\\Kızılkafa\\source\\repos\\CoreYiyecekler\\CoreYiyecekler\\CoreYiyecekler.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\USER\\source\\repos\\CoreYiyecekler\\.NetCore5.0\\CoreYiyecekler\\CoreYiyecekler.csproj",
+        "projectUniqueName": "C:\\Users\\Kızılkafa\\source\\repos\\CoreYiyecekler\\CoreYiyecekler\\CoreYiyecekler.csproj",
         "projectName": "CoreYiyecekler",
-        "projectPath": "C:\\Users\\USER\\source\\repos\\CoreYiyecekler\\.NetCore5.0\\CoreYiyecekler\\CoreYiyecekler.csproj",
-        "packagesPath": "C:\\Users\\USER\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\USER\\source\\repos\\CoreYiyecekler\\.NetCore5.0\\CoreYiyecekler\\obj\\",
+        "projectPath": "C:\\Users\\Kızılkafa\\source\\repos\\CoreYiyecekler\\CoreYiyecekler\\CoreYiyecekler.csproj",
+        "packagesPath": "C:\\Users\\Kızılkafa\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Kızılkafa\\source\\repos\\CoreYiyecekler\\CoreYiyecekler\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\USER\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\Kızılkafa\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -87,7 +83,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.406\\RuntimeIdentifierGraph.json"
         }
       }
     }

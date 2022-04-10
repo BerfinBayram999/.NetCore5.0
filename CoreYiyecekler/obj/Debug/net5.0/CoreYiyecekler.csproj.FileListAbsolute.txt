@@ -9,7 +9,6 @@ C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0
 C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0\CoreYiyecekler.pdb
 C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0\CoreYiyecekler.Views.dll
 C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0\CoreYiyecekler.Views.pdb
-C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0\EntityFramework.dll
 C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0\Humanizer.dll
 C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0\Microsoft.Data.SqlClient.dll
 C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\bin\Debug\net5.0\Microsoft.EntityFrameworkCore.dll
@@ -296,3 +295,6 @@ C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\n
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryAdd.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Food\FoodAdd.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryGet.cshtml.g.cs
+C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryAdd.cshtml.g.cs
+C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryGet.cshtml.g.cs
+C:\Users\Kızılkafa\source\repos\CoreYiyecekler\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Food\FoodAdd.cshtml.g.cs
