@@ -11,5 +11,14 @@ namespace CoreYiyecekler.Controllers
         {
             return View();
         }
+
+
+        [AllowAnonymous]
+        public IActionResult CategoryDetails()
+        {
+
+            return View();
+
+        }
     }
 }
