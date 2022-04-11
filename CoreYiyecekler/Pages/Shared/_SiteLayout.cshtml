@@ -104,10 +104,10 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 			</div>
 			<div class="w3ls_logo_products_left1">
 				<ul class="special_items">
-					<li><a href="events.html">Events</a><i>/</i></li>
-					<li><a href="about.html">About Us</a><i>/</i></li>
-					<li><a href="products.html">Best Deals</a><i>/</i></li>
-					<li><a href="services.html">Services</a></li>
+					<li><a href="events.html">Anasayfa</a><i>/</i></li>
+					<li><a href="about.html">Hakkımızda</a><i>/</i></li>
+					<li><a href="products.html">Leziz Tarifler</a><i>/</i></li>
+					<li><a href="services.html">İletişim</a></li>
 				</ul>
 			</div>
 			<div class="w3ls_logo_products_left1">
@@ -221,7 +221,8 @@ Smartphone Compatible web template, free webdesigns for Nokia, Samsung, LG, Sony
 <!-- top-brands -->
 	<div class="top-brands">
 		<div class="container">
-			<h3>Hot Offers</h3>
+			<h3>Ürünlerimiz</h3>
+			@await Component.InvokeAsync("FoodGetList")
 			@RenderBody()
 		</div>
 	</div>
