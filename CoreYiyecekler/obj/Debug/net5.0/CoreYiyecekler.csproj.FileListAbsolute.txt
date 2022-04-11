@@ -295,7 +295,6 @@ C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\n
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.cs
-C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Category\CategoryAdd.cshtml.g.cs
@@ -318,3 +317,6 @@ C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\n
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\CoreYiyecekler.pdb
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\CoreYiyecekler.genruntimeconfig.cache
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\ref\CoreYiyecekler.dll
+C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Default\Index.cshtml.g.cs
+C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Pages\Shared\_SiteLayout.cshtml.g.cs
+C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Default\Components\CategoryGetList\Default.cshtml.g.cs
