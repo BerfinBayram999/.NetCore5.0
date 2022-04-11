@@ -1,5 +1,6 @@
 ﻿using CoreYiyecekler.Data.Models;
 using CoreYiyecekler.Repositories;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 
 
@@ -8,10 +9,10 @@ namespace CoreYiyecekler.Controllers
     public class CategoryController : Controller
     {
         CategoryRepository categoryRepository = new CategoryRepository();
+
+
         public IActionResult Index()
         {
-
-
             return View(categoryRepository.TList());
         }
 
