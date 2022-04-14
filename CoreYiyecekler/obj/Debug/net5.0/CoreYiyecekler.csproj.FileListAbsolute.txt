@@ -322,3 +322,4 @@ C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\n
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Default\Components\CategoryGetList\Default.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Default\Components\FoodGetList\Default.cshtml.g.cs
 C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Default\CategoryDetails.cshtml.g.cs
+C:\Users\USER\source\repos\CoreYiyecekler\.NetCore5.0\CoreYiyecekler\obj\Debug\net5.0\Razor\Views\Default\Components\FoodListByCategory\Default.cshtml.g.cs

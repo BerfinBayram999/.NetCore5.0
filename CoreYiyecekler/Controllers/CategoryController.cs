@@ -2,6 +2,7 @@
 using CoreYiyecekler.Repositories;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System;
 
 
 namespace CoreYiyecekler.Controllers
@@ -11,8 +12,16 @@ namespace CoreYiyecekler.Controllers
         CategoryRepository categoryRepository = new CategoryRepository();
 
 
-        public IActionResult Index()
+        public IActionResult Index(string p)
         {
+			if (!string.IsNullOrEmpty(p))
+			{
+                return View(categoryRepository.List(x=>x.CategoryName==p));
+
+
+
+
+			}
             return View(categoryRepository.TList());
         }
 

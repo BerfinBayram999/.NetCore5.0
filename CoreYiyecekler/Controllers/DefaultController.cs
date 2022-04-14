@@ -14,9 +14,9 @@ namespace CoreYiyecekler.Controllers
 
 
         [AllowAnonymous]
-        public IActionResult CategoryDetails()
+        public IActionResult CategoryDetails(int id)
         {
-
+            ViewBag.x = id;
             return View();
 
         }
